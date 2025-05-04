@@ -13,7 +13,7 @@ Beautiful Wallpapers for Websites
 ```
 <script type="module">
   import { webBg } from 'https://satyamv7.github.io/webBackground/index.js';
-  webBg('ID', 'zIndex')
+  webBg(Math.floor(Math.random() * 11), -1)
 </script>
 ```
 
